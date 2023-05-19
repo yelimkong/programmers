@@ -1,4 +1,2 @@
 -- 코드를 입력하세요
-SELECT * 
-FROM ANIMAL_INS
-ORDER BY ANIMAL_ID
+SELECT * from ANIMAL_INS WHERE SEX_UPON_INTAKE like '%ale%' order by animal_id
